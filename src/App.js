@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       
-      <Greet name="bby"/>
-      <Welcome/>
+      <Greet name="vetha"/>
+      <Welcome name = "vetha"/>
     </div>
   );
 }
