@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <Count />
-      <Greet name="vetha"/>
+      <Greet name="vetha">
+        <p>hello</p>
+      </Greet>
       <Welcome name = "vetha"/>
       <Dynamic/>
     </div>
