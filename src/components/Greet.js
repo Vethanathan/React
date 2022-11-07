@@ -4,7 +4,10 @@ import React from 'react'
 //     return <h1>Hello this is vetha just created a component</h1>
 // }
 const Greet = props => {
-    console.log(props)
- return <h1>Vanakam da {props.name} maapla Functional component la irunthu</h1>
+    // console.log(props)
+ return <div>
+            <h1>Vanakam da {props.name} maapla Functional component la irunthu</h1>
+            {props.children}
+        </div>
 }
 export default Greet;

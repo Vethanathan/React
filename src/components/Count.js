@@ -21,6 +21,7 @@ class Count extends Component {
             <div>Count - {this.state.count}</div>
             <button onClick={() => this.incerement()}> Count </button>
             <button onClick={() => this.reset()}> Reset </button>
+            <p1> hello </p1>
 
         </div>
     )
